@@ -3,8 +3,15 @@ package com.example.springbootchat;
 public class ChatMessage {
     private String value;
     private String user;
+    private String userColor;
 
+    public String getUserColor() {
+        return userColor;
+    }
 
+    public void setUserColor(String userColor) {
+        this.userColor = userColor;
+    }
 
     public String getUser() {
         return user;
